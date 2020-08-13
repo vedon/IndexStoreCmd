@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IndexStoreDB",
+        "repositoryURL": "https://github.com/apple/indexstore-db.git",
+        "state": {
+          "branch": "swift-5.2-branch",
+          "revision": "20a17d4cbe9fea46cde80ee376e769ef5ea5accd",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser.git",
+        "state": {
+          "branch": "master",
+          "revision": "6180c8ba819d595461ea7ae92667fb5689ede482",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-tools-support-core",
+        "repositoryURL": "https://github.com/apple/swift-tools-support-core.git",
+        "state": {
+          "branch": "master",
+          "revision": "190afe599d6c818e5a766d58cae1aaea75571573",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

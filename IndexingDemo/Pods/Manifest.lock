@@ -1,0 +1,16 @@
+PODS:
+  - Pecker (0.4.0)
+
+DEPENDENCIES:
+  - Pecker
+
+SPEC REPOS:
+  trunk:
+    - Pecker
+
+SPEC CHECKSUMS:
+  Pecker: 5025913055924d4d6c786935e4ba7dc241d36359
+
+PODFILE CHECKSUM: 6f5f7eb3642ae6dacdc44af54342006b318f23db
+
+COCOAPODS: 1.9.1
