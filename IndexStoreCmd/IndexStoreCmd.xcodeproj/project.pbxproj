@@ -14,6 +14,7 @@
 		4E10773424E406DA00FB362A /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 4E10773324E406DA00FB362A /* ArgumentParser */; };
 		4E10773624E4090A00FB362A /* Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10773524E4090A00FB362A /* Workspace.swift */; };
 		4E10798A24E4F34300FB362A /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10798924E4F34300FB362A /* Command.swift */; };
+		70CBC69E24E7B9760093A60E /* XcodeGenKit in Frameworks */ = {isa = PBXBuildFile; productRef = 70CBC69D24E7B9760093A60E /* XcodeGenKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CBC69E24E7B9760093A60E /* XcodeGenKit in Frameworks */,
 				4E10773424E406DA00FB362A /* ArgumentParser in Frameworks */,
 				4E10772F24E4069500FB362A /* SwiftToolsSupport in Frameworks */,
 				4E10772C24E405F700FB362A /* IndexStoreDB in Frameworks */,
@@ -115,6 +117,7 @@
 				4E10772B24E405F700FB362A /* IndexStoreDB */,
 				4E10772E24E4069500FB362A /* SwiftToolsSupport */,
 				4E10773324E406DA00FB362A /* ArgumentParser */,
+				70CBC69D24E7B9760093A60E /* XcodeGenKit */,
 			);
 			productName = IndexStoreCmd;
 			productReference = 4E10772024E4059600FB362A /* IndexStoreCmd */;
@@ -148,6 +151,7 @@
 				4E10772A24E405F700FB362A /* XCRemoteSwiftPackageReference "indexstore-db" */,
 				4E10772D24E4069500FB362A /* XCRemoteSwiftPackageReference "swift-tools-support-core" */,
 				4E10773224E406DA00FB362A /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				70CBC69C24E7B9760093A60E /* XCRemoteSwiftPackageReference "XcodeGen" */,
 			);
 			productRefGroup = 4E10772124E4059600FB362A /* Products */;
 			projectDirPath = "";
@@ -351,6 +355,14 @@
 				kind = branch;
 			};
 		};
+		70CBC69C24E7B9760093A60E /* XCRemoteSwiftPackageReference "XcodeGen" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yonaskolb/XcodeGen";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -368,6 +380,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4E10773224E406DA00FB362A /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = ArgumentParser;
+		};
+		70CBC69D24E7B9760093A60E /* XcodeGenKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70CBC69C24E7B9760093A60E /* XCRemoteSwiftPackageReference "XcodeGen" */;
+			productName = XcodeGenKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
